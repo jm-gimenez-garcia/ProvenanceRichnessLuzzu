@@ -1,0 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfg: <http://www.w3.org/2004/03/trix/rdfg-1> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix lmi: <http://purl.org/eis/vocab/lmi#> .
+
+#--- Provenance ---------------------------------------------------------------------------------------------------------------
+
+_:MetaDataRichnessWikidataMetric a lmi:LuzzuMetricJavaImplementation ;
+        rdfs:label "Provenance Richness" ;
+        lmi:javaPackageName "eu.diachron.qualitymetrics.representational.provenance.MetaDataRichnessWikidataMetric" .
